@@ -73,7 +73,7 @@ While we're modifying our view lets add the ability to get these products in JSO
     respond_to do |format|
       format.html # show default view
       format.json {render :json => @products}
-    end
+    end 
 
 Now when you visit [http://localhost:3000/products.json](http://localhost:3000/products.json) you will see your products in json form:
 
